@@ -70,3 +70,24 @@ If the implementation is easy to explain, it may be a good idea.
 
 Namespaces are one honking great idea -- let's do more of those!
 --OOP is probably something you should do.
+
+##Our first program
+
+In python:
+print "Hello World"
+
+In Java:
+public class Hello{
+	public static void main(String[] args){
+		System.out.println("Hello World");
+	}
+}
+
+In C++:
+#include <iostream>
+using namespace std;
+
+int main(void){
+	cout << "Hello World" << endl;
+	return 0;
+}
