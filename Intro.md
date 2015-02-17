@@ -114,27 +114,13 @@ Let's save it in a file called friend.py and run it as follows - python friend.p
 
 ##Understanding the above code:
 
+The above code has two functions:
+
 raw_input - Whatever is between the quotes is printed to the user and then the program waits for the next keystrokes from the person interacting with the program until the enter key is pressed.  Then raw_input will save those keystrokes to the program. 
 
-##Math versus CS - functions
+And 
 
-As you might recall from elementary school:
-
-f(x) -> y can be thought of as: y = f(x)
-
-Where x is the input of the function f, and y is the output of f.  In this way we can say, f is a function that 'maps' x to y.  Thus it is fair to say that f(x) is equal to y, hence y = f(x).  
-
-In computer science you can say the same thing, y = f(x); for a function f, input x, and output y.  However, it's not exactly the same (but don't worry about that yet!)
-
-###Back to our example
-
-Now that we understand that functions take in input and send back output we can understand the piece of code:
-
-`name = str(raw_input("What's your name?"))`
-
-Really what's happening is:
-
-`"What's your name?"` is the input of the function `raw_input` and the output is then passed as input to the `str` function.  Finally, the result is saved in the variable 	`name`.  Notice that we don't need to name the output of raw_input.  So,
+str - takes in input and returns the string form of the input.
 
 `name = str(raw_input("What's your name?"))`
 
